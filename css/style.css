@@ -13,3 +13,85 @@
   font-weight: 400;
   font-style: normal;
 }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.text-md {
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.text-lg {
+  color: rgb(14, 14, 14);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+.btn-primary {
+  padding: 17px 34px 17px 34px;
+  border-radius: 0.5rem;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border: none;
+  cursor: pointer;
+}
+/* Header Section Styling Start Here */
+.nav-element {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.sign-in-button {
+  padding: 1rem 2rem;
+  color: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  background: transparent;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+#showcase {
+  margin: 20px 0 80px;
+}
+.showcase-content {
+  background: rgb(198, 228, 214);
+  padding: 80px 60px 80px 60px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase-text {
+  width: 65%;
+}
+.showcase-img {
+  width: 35%;
+}
+.showcase-img img {
+  width: 100%;
+}
+/* Header Section Styling End Here */
+/* Showcase Section Styling Start Here */
+#showcase .showcase-text p {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 1rem;
+}
+
+#showcase .showcase-text h1 {
+  margin-bottom: 1.5rem;
+}
+/* Showcase Section Styling End Here */
